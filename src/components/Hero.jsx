@@ -8,7 +8,7 @@ function Hero() {
     <div className=''>
       {/* Video */}
       <div className=" w-full absolute h-screen z[-3] ">
-        <video src="./assets/Test_Vid.mp4" className=" overflow-hidden absolute w-full h-full object-cover z-[-2]" loop autoPlay muted />
+        <video src="./assets/Test_Vid.mp4" className=" overflow-hidden absolute w-full h-full object-cover z-[-2]" loop autoPlay />
       </div>
       
       <div className='h-screen bg-black/50'>
