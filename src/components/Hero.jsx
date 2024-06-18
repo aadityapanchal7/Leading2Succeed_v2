@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from './Navbar'
+import AutoPlaySilentVideo from './Video'
 
 function Hero() {
 
@@ -8,7 +9,7 @@ function Hero() {
     <div className=''>
       {/* Video */}
       <div className=" w-full absolute h-screen z[-3] ">
-        <video src="./assets/Test_Vid.mp4" className=" overflow-hidden absolute w-full h-full object-cover z-[-2]" loop autoPlay muted />
+        <AutoPlaySilentVideo className=" overflow-hidden absolute w-full h-full object-cover z-[-2]" />
       </div>
       
       <div className='h-screen bg-black/50'>
